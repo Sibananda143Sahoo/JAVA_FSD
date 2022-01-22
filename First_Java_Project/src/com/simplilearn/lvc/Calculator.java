@@ -54,7 +54,7 @@ public class Calculator {
 		//Either continue or exit
 			System.out.println("Enter 'y' to Continue & 'n' to exit");
 			b=sc.next().charAt(0);
-			if(b=='y') continue;
+			if(b=='y'||b=='Y') continue;
 			else
 				System.out.println("Thank you");
 			break;
